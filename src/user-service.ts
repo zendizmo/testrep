@@ -63,3 +63,5 @@ export async function getAllUsers(): Promise<User[]> {
   return result.rows;
 }
 // TODO: add input validation
+
+// End of file
