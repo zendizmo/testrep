@@ -62,3 +62,4 @@ export async function getAllUsers(): Promise<User[]> {
   const result = await db.query("SELECT * FROM users");
   return result.rows;
 }
+// TODO: add input validation
