@@ -66,3 +66,4 @@ export async function getAllUsers(): Promise<User[]> {
 
 // End of file
 // Security review needed
+// Needs auth middleware
